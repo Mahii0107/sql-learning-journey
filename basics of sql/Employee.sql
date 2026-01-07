@@ -7,7 +7,7 @@ use employee_details
 
 
 
-CREATE TABLE Employees (
+CREATE TABLE Employee (
     EmployeeID INT PRIMARY KEY,
     FirstName VARCHAR(50),
     LastName VARCHAR(50),
@@ -18,7 +18,7 @@ CREATE TABLE Employees (
 
 
 
-INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, HireDate)
+INSERT INTO Employee (EmployeeID, FirstName, LastName, Department, Salary, HireDate)
 VALUES
 (1, 'John', 'Doe', 'HR', 50000.00, '2020-01-15'),
 (2, 'Jane', 'Smith', 'Finance', 60000.00, '2019-03-23'),
